@@ -1,0 +1,597 @@
+@media (max-width: 1270px) {
+
+    /* trade-securely */
+
+    .trade-securely__cryptocurrencie-colum {
+        max-width: 322px;
+        width: 100%;
+    }
+
+    /* features */
+
+    .features__text-wrapper--custom-2 {
+        margin-left: 15px;
+    }
+
+    /* footer */
+    
+    .footer__logo-wrapper {
+        margin-right: 100px;
+    }
+
+    .footer__quick-link-wrapper {
+        margin-right: 0;
+    }
+
+    .footer__resources-wrapper {
+        margin-right: 30px;
+    }
+}
+
+@media  (min-width: 1270px) {
+
+    /* value-proposition */
+
+    .value-proposition__text-wrapper {
+        left: 120px;
+    }
+}
+
+@media (max-width: 1110px) {
+
+    /* value-proposition */
+
+    .value-proposition__text-wrapper {
+        font-size: 52px;
+        line-height: 64px;
+        top: 30px;
+    }
+
+    /* newsletter */
+
+    .newsletter-bar-float {
+        right: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    /* value-proposition */
+
+    .value-proposition__text-wrapper {
+        width: 420px;
+    }
+
+    .value-proposition__statement {
+        font-size: 44px;
+        line-height: 56px;
+    }
+
+    /* features */
+
+    .features__text-wrapper--custom-1, .features__text-wrapper--custom-3  {
+        max-width: 300px;
+        margin-right: 10px;
+    }
+
+    .features__text-wrapper--custom-2 {
+        max-width: 300px;
+    }
+    
+
+    .features__img-circle-top {
+        left: 0;
+        transform: translateX(-60px);
+    }
+
+    /* newsletter */
+
+    .container-from-newsletter {
+        max-width: 800px;
+    }
+
+    .newsletter__title-wrapper {
+        margin-right: 30px;
+    }
+
+    .newsletter__title {
+        font-size: 24px;
+    }
+
+    .newsletter__description {
+        max-width: 300px;
+    }
+
+    .newsletter__form-email-wrapper {
+        max-width: 500px;
+    }
+
+    .newsletter__input-email  {
+        width: 300px;
+    }
+}
+
+@media (max-width: 970px) {
+
+    /* why cappro */
+
+    .why-cappro__img-d {
+        width: 120px;
+    }
+
+    .why-cappro__img-u {
+        width: 120px;
+    }
+
+     /* trade-securely */
+    
+     .trade-securely__form-hash-rate {
+        width: 700px;
+    }
+
+    .trade-securely__estimated-revenue-wrapper {
+        width: 700px;
+    }
+
+    
+    /* footer */
+
+    .footer__wrapper {
+        padding: 40px 16px;
+    }
+
+    .footer__top {
+        flex-wrap: wrap;
+    }
+
+    .footer__top, .footer__logo-wrapper, .footer__quick-link-wrapper, .footer__resources-wrapper {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 890px) {
+
+    /* why cappro */
+
+    .why-cappro {
+        transform: translateY(-85px);
+    }
+
+    .why-cappro__icon-wrapper {
+        padding-right: 10px;
+    }
+
+    .why-cappro__icon {
+        width: 60px;
+    }
+
+    .why-cappro__big-number-title {
+        font-size: 24px;
+    }
+
+    .why-cappro__big-number-description {
+        font-size: 14px;
+    }
+
+    /* features */
+
+    .features__text-wrapper--custom-2 {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 820px) {
+
+    /* Menu Responsive */
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__autentication-wrapper {
+        display: none;
+    }
+
+    .header__menu-toggle {
+        width: 40px;
+        margin-right: 20px;
+    }
+    
+    .header__one, .header__two, .header__three {
+        background-color: #fff;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+        transition-duration: 0.3s;
+    }
+
+    .header__nav--responsive {
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        text-align: center;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #0D0D2B;
+        z-index: 10;
+    }
+
+    .header__nav--responsive  .header__menu-toggle {
+        position: absolute;
+        top: 95px;
+        right: 15px;
+    }
+
+    .header__nav--responsive .header__nav {
+        display: block;
+    }
+
+    .header__nav--responsive .header__one {
+        transform: rotate(45deg) translate(-7px, -7px);
+    } 
+
+    .header__nav--responsive .header__two {
+        opacity: 0;
+    }
+
+    .header__nav--responsive .header__three {
+        transform: rotate(-45deg) translate(22px, -23px);
+    }
+
+    .header__nav--responsive .header__nav-itens-wrapper {
+        display: block;
+        width: 100%;
+    }
+
+    .header__nav--responsive .header__nav-link-item {
+        display: inline-block;
+        font-size: 2rem;
+        line-height: 3rem;
+        padding: 1rem;
+        width: 240px;
+        transition-duration: 0.5s
+    }
+
+    .header__nav--responsive .header__nav-link-item:hover {
+        background: rgb(255,255,255,0.1);
+    }
+
+    .header__nav--responsive .header__autentication-wrapper {
+        display: block;
+    } 
+
+    .header__nav--responsive  .header__autentication {
+        display: block;
+        width: 100%;
+        margin: unset;
+    }
+
+    .header__nav--responsive .header__list-item--responsive1 {
+        display: none;
+    }
+
+    .header__nav--responsive .header__btn-register {
+        background: unset;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .header__nav--responsive .header__autentication-link-item {
+        display: inline-block;
+        font-size: 2rem;
+        line-height: 3rem;
+        padding: 1rem;
+        width: 240px;      
+        transition-duration: 0.5s  
+    }
+
+    .header__nav--responsive .header__autentication-link-item:hover {
+        background: rgb(255,255,255,0.1);
+    }
+
+    /* newsletter  */
+
+    .container-from-newsletter {
+        padding: 24px;
+    }
+
+    .newsletter__title {
+        padding-bottom: 8px;
+    }
+}
+
+@media (max-width: 780px) {
+
+    /* value-proposition */
+
+    .value-proposition__text-wrapper {
+        position: absolute;
+        width: 375px;
+        top: 0;
+    }
+
+    .value-proposition__statement {
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 12px;
+    }
+
+    .value-proposition__complement-statement {
+        margin-bottom: 12px;
+    }
+
+    /* why-cappro */
+
+    .why-cappro__img-ethereum-wrapper {
+        margin-right: 40px;
+    }
+
+    .why-cappro__text-wrapper {
+        top: 90px;
+    }
+
+    .why-cappro__title-wrapper {
+        font-size: 36px;
+    }
+
+    /* trade-securely */
+
+    .trade-securely__title {
+        font-size: 36px;
+    }
+
+    .trade-securely__description {
+        font-size: 16px;
+        max-width: 560px;
+    }
+
+    .trade-securely__input-hash-rate {
+        width: 250px;
+    }
+
+    .trade-securely__type-rate {
+        width: 100px;
+    }
+
+    .trade-securely__title-cryptocurrencies {
+        font-size: 36px;
+    }
+
+    .trade-securely__cryptocurrencies-wrapper {
+        padding: 316px 16px 0px 16px;
+    }
+
+    /* features */ 
+
+    .features__wrapper {
+        padding-top: 80px;
+    }
+
+    .features__main-title {
+        font-size: 36px;
+        max-width: 710px;
+    }
+
+    .features__img-circle-top {
+        left: 0;
+        transform: translateX(-60px);
+    }
+}
+
+@media (max-width: 760px) {
+
+    /* value-proposition */
+
+    .value-proposition__text-wrapper {
+        position: relative;
+        max-width: 600px;
+        width: 100%;
+    }
+
+    /* why-cappro */
+
+    .why-cappro {
+        transform: translateY(0);
+    }
+
+    .why-cappro__data {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why-cappro__item-data {
+        margin-bottom: 30px;
+    }
+
+    .why-cappro__info {
+        width: 300px;
+    }    
+
+    .why-cappro__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why-cappro__img-ethereum-wrapper {
+        top: 0;
+    }
+
+    .why-cappro__text-wrapper {
+        position: static;
+        max-width: 480px;
+        width: 100%;
+    }
+
+    .why-cappro__img-d {
+        top: 270px;
+    }
+
+    .why-cappro__img-u {
+        top: revert;
+        bottom: 0;
+    }
+
+    /* trade securely */
+
+    .trade-securely__form-hash-rate, .trade-securely__estimated-revenue-wrapper {
+        width: 300px;
+        padding: 16px;
+    }
+
+    .trade-securely__result-estimated-revenue {
+        font-size: 24px;
+    }
+
+    /* features */
+
+    .features__title-wrapper {
+        padding: 0 16px 50px 16px;
+    }
+
+    .features__invest-smart {
+        margin-bottom: 60px;
+    }
+
+    .features__wrapper--custom-1 {
+        flex-direction: column-reverse;
+    }
+
+    .features__text-wrapper--custom-1 {
+        max-width: 400px;
+        margin-right: 0;
+    }
+
+    .features__detailed-statistics {
+        padding: 0 16px;
+        margin-bottom: 60px;
+    }
+
+    .features__wrapper--custom-2 {
+        flex-direction: column-reverse;
+    }
+
+    .features__text-wrapper--custom-2 {
+        margin-top: 40px;
+        max-width: 400px;
+        margin-left: 0;
+    }
+
+    .features__grow-profit {
+        padding: 0 16px 50px 16px;
+    }
+
+    .features__wrapper--custom-3 {
+        flex-direction: column-reverse;
+    }
+
+    .features__text-wrapper--custom-3 {
+        max-width: 400px;
+        margin-top: 40px;
+        margin-right: 0;
+    }
+
+    .features__img-circle-top {
+        width: 100%;
+    }
+
+    /* newsletter */
+
+    .container-from-newsletter {
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+    }
+
+    .newsletter__title-wrapper, .newsletter__description {
+        max-width: 520px;
+    }
+
+    .newsletter__form-email {
+        flex-direction: column;
+    }
+
+    .newsletter__input-email {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .newsletter__bottom-suscribe {
+        padding: 6px 10px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    /* trade-securely */
+
+    .trade-securely__calculate {
+        top: 280px;
+    }
+
+    .trade-securely__title-cryptocurrencies-wrapper {
+        text-align: left;
+    }
+
+    /* footer */
+
+    .footer__bottom {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer__social-media-wrapper {
+        margin-bottom: 40px;
+    }
+}
+
+
+@media (max-width: 375px) {
+
+    /* value-proposition */
+
+    .value-proposition__discount-percentage-wrapper {
+        width: 288px;
+    }
+
+    .value-proposition__discount-percentage {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 85px;
+        font-size: 14px;
+        padding: 4px 8px;
+        letter-spacing: 0.02em;
+    }
+
+    .value-proposition__text-discount-wrapper {
+        font-size: 14px;
+        padding-left: 4px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    /* trade-securely */
+
+    .trade-securely__calculate {
+        top: 320px;
+    }
+
+    .trade-securely__cryptocurrencies-wrapper {
+        padding: 280px 16px 0 16px;
+    }
+
+    .trade-securely__title-cryptocurrencies {
+        font-size: 33px;
+    }
+
+    /* features */
+
+    .features__title-wrapper {
+        text-align: left;
+    }
+}
